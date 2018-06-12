@@ -5,7 +5,7 @@ function currentline(line){
     return "The line is currently empty.";
   }
 var lineNamesandNumbers = [];
-for (vr i=0; i<line.lenght; i++) {
+for (var i=0; i<line.lenght; i++) {
   lineNamesandNumbers.push(i+1 + '.' + line[i]);
 }
 console.log("The line is currently:" + lineNamesandNumbers)
