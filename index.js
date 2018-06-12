@@ -19,3 +19,7 @@ function nowServing(line) {
     return "Currently serving" + line.shift();
   }
 }
+function takeANumber(line,name){
+  line.push(name);
+  console.log ("Welcome," + name + ". You are number" + line.lenght + "in line.")
+}
