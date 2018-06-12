@@ -18,7 +18,7 @@ function nowServing(line) {
     console.log("There is nobody waiting to be served!")
     return "There is nobody waiting to be served!"
   } else {
-  
+
     return "Currently serving " + line.shift();
   }
 }
@@ -35,7 +35,7 @@ takeANumber(katzDeli, "Grace")
 takeANumber(katzDeli, "Kent")
 currentLine(katzDeli);
 nowServing(katzDeli);
-takeANumber(katzDeli, "Matz"); 
-currentLine(katzDeli); 
+takeANumber(katzDeli, "Matz");
+currentLine(katzDeli);
 nowServing(katzDeli);
 currentLine(katzDeli)
